@@ -8,7 +8,7 @@ MIN_OPERAND = 1  # Minimum possible value for operands
 MAX_OPERAND = 14  # Maximum possible value for operands
 TOTAL_PROBLEMS = 10  # Total number of problems the user will solve
 
-# Define a function to generate a random math problem
+# FUNCTION: generate a random math problem
 def generate_problem():
     # Generate random numbers for the problem
     left = random.randint(MIN_OPERAND, MAX_OPERAND)
@@ -44,7 +44,7 @@ for i in range(TOTAL_PROBLEMS):
     # Keep prompting the user until they answer correctly
     while True:
         guess = input("Problem #" + str(i + 1) + ": " + expr + " = ")
-        # Check if user's answer is correct
+        # Exit loop if user's answer matches the correct answer
         if guess == str(answer):
             break
         # If incorrect, increment the wrong counter
@@ -59,3 +59,4 @@ total_time = end_time - start_time
 print("----------------------")
 # Congratulate user and display their time
 print("Nice work! You finished in,", total_time, "seconds!")  
+
