@@ -13,6 +13,11 @@ def generate_problem():
     
     expr = str(left) + " " + operator + " " + str(right)
     answer = eval(expr)
+    
+    # If the answer is a float but is a whole number, convert it to an integer
+    if isinstance(answer, float) and answer.is_integer():
+        answer = int(answer)
+    
     return expr, answer
 
 wrong = 0
