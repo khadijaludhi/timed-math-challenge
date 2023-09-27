@@ -6,7 +6,7 @@ import time
 OPERATORS = ["+", "-", "/", "*"]  # Possible mathematical operators
 MIN_OPERAND = 1  # Minimum possible value for operands
 MAX_OPERAND = 14  # Maximum possible value for operands
-TOTAL_PROBLEMS = 12  # Total number of problems the user will solve
+TOTAL_PROBLEMS = 10  # Total number of problems the user will solve
 
 # FUNCTION: generate a random math problem
 def generate_problem():
