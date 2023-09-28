@@ -1,7 +1,8 @@
 # Timed Math Challenge
 
 ## Introduction
-The Timed Math Challenge is a Python-based arithmetic quiz game. The user is prompted to solve a series of random arithmetic problems within a time frame. The program calculates the time taken by the user to solve all problems and provides feedback at the end.
+As a first-year student studying mathematics at university, I am passionate about understanding the intricate relationship between math and technology. 
+The Timed Math Challenge is a Python-based arithmetic quiz game. The user is prompted to solve a series of random arithmetic problems. The program calculates the time taken by the user to solve all problems and provides feedback at the end.
 
 This project was an exciting journey into building interactive applications using Python and understanding the nuances of user input and programmatic responses.
 
@@ -9,19 +10,19 @@ This project was an exciting journey into building interactive applications usin
 
 - **Random Problem Generation**: The game uses a combination of random numbers and arithmetic operators to generate unique math problems every time.
 
-- **Timed Challenge**: From the moment the user starts the game, the timer starts ticking. The total time taken by the user to solve all problems is recorded and displayed at the end.
+- **Timed Challenge**: Once the user initiates the challenge, the clock starts ticking. The total time taken by the user to solve all problems is recorded and then shared with the user.
 
 - **User Feedback**: If a user answers incorrectly, the program prompts the user for the correct answer until they get it right. The number of wrong attempts is also tracked.
 
 ## What I've Learned
 
-1. **Python Basics**: This project reaffirmed my understanding of Python's basic constructs, like loops, conditionals, and functions.
+1. **Python Basics**: This project reinforced my grasp on foundational Python constructs like loops, conditionals, and functions.
   
-2. **User Interaction**: I learned how to build a more interactive command-line application, handling user input, and providing real-time feedback.
+2. **User Interaction**: Building this interactive command-line application deepened my understanding of user input and real-time feedback mechanisms in Python.
 
 3. **Time Management**: Using Python's `time` module, I learned how to record the current time, calculate differences, and use this data to provide feedback to the user.
 
-4. **Error Handling and User Input**: Ensuring that the program can handle unexpected inputs and guide the user to the correct answer was a valuable lesson in error handling and input validation.
+4. **Error Handling and User Input**: One challenge I encountered was managing the output of division operations. Python returns floats for divisions, even when the result is a whole number. Implementing a mechanism to convert such floats to integers was crucial to make the user experience seamless.
 
 ## How to Run
 
